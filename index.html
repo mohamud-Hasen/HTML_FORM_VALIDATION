@@ -7,43 +7,71 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div>
-    <header>
-        <p>This is not a real online Service! You know you Need something <br>
-          like this in your life to help you realize your deepest dreams.<br>
-          sign up now to get started
-         
-         </p>
-         <p><strong> know you want to</strong></p>
-         <p>let's do this</p>
-         <form action="" method="">
-             <label for="firstname">First Name</label><br>
-             <input type="text" id="fname" required><br>
-     
-             <label for="lastname">Last Name</label><br>
-             <input type="text" id="lname" required><br>
-     
-             <label for="email">Email</label><br>
-             <input type="text" id="email" required><br>
-     
-             <label for="password">Password</label><br>
-             <input type="password" id="password" required><br>
-     
-             <label for="confirmpassword">Confirm Password</label><br>
-             <input type="password" id="password" required><br>
-     
-     
-             <label for="phone">Phone</label><br>
-             <input type="number" id="phone" required><br>
-     
-             <input type="submit" value="Create an account">
-            
-         </form>
-         <p>Already have an account? Login</p>
+ 
+  <div  class="image-container">
+    <div>
+      <img id="img" src="image/green_leaf.jpg" alt="image">
+    </div>
   </div>
-  <div>
-    <img src="image/green_leaf.jpg" alt="">
-  </div>
+   
+      <div class="main-container">
+        <div id="intro">
+          <p>This is not a real online Service! You know you Need something <br>
+            like this in your life to help you realize your deepest dreams.<br>
+            sign up now to get started  
+          </p>
+          <p><strong> know you want to</strong></p>
+        </div>
+          <div class="form-container">
+            <h2>Let's Do This </h2>
+            <form action="" method="post">
+             <div id="form-info">
+             <div>
+              <label for="firstname">First Name</label><br>
+              <input type="text" id="fname" required autofocus><br>
+             </div>
+      
+             <div>
+              <label for="lastname">Last Name</label><br>
+              <input type="text" id="lname" required><br>
+             </div>
+      
+            <div>
+              <label for="email">Email</label><br>
+              <input type="text" id="email" required><br>
+            </div>
+      
+             <div>
+              <label for="password">Password</label><br>
+              <input type="password" id="password" required><br>
+             </div>
+      
+             <div>
+              <label for="confirmpassword">Confirm Password</label><br>
+              <input type="password" id="password" required><br>
+             </div>
+      
+      
+             <div>
+              <label for="phone">Phone</label><br>
+              <input type="number" id="phone" required><br>
+             </div>
+             </div>
+             
+             <div id="login-container">
+                
+              <button>
+                <input type="submit" value="Create an account">
+              </button>
+              <p>Already have an account? <a href="#">Login</a></p>
+              </div>
+             
+          </form>
+          </div>
+        
+  
+ 
+      </div>
     
 </body>
 </html>
